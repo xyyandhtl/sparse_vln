@@ -1,0 +1,12 @@
+grid_map:
+  keyword: 'floor or ground'
+  grid_size: 0.1
+  detect_thr: 0.5
+  expand_ratio: 1.2
+  gravity_axis: 'y'
+  device: 'cuda'
+  mask_resolution: 400
+  mask_ratio_thr: 0.5
+  camera_height: 2.0
+  
+  
