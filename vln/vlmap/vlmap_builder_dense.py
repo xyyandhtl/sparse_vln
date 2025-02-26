@@ -249,7 +249,7 @@ class VLMapBuilderSfMDense:
                     else:
                         if weight[occupied_id] + alpha == 0:
                             # print(f"weight/alpha {weight[occupied_id]}/{alpha}")
-                            continue6
+                            continue
                         grid_feat[occupied_id] = (
                             grid_feat[occupied_id] * weight[occupied_id] + feat.flatten() * alpha
                         ) / (weight[occupied_id] + alpha)

@@ -21,3 +21,5 @@ script
 weights/dino_tiny/*
 weights/sam_base/*
 weights/depth_anything_v2/*
+weights/lseg/*
+weights/clip-vit-base-patch32/*
